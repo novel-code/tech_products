@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+/*  color: #FC615B;
+*/
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body,html {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(#000)), url(https://drscdn.500px.org/photo/1002195341/m%3D900/v2?sig=dbae0108b10a261ac4cf94fe6b2d750ab3083ee6af8fd01010c5f48e74212767);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), #000), url(https://drscdn.500px.org/photo/1002195341/m%3D900/v2?sig=dbae0108b10a261ac4cf94fe6b2d750ab3083ee6af8fd01010c5f48e74212767);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.first-impression {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: row;
+    -ms-flex-pack: row;
+    justify-content: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.con__1 {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.logo {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.con__2 {
+    margin-left: 20px;
+    margin-top: 20px;
+    
+}
+h1 {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 55px;
+    white-space: nowrap;
+    letter-spacing: 2px;
+    color: #4E95D9;
+}
+h2 {
+    color: #D9B64E;
+    font-family: 'Share Tech Mono', monospace;
+    letter-spacing: 1px;
+    margin-left: 1%;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 250%;
+    font-weight: 100;
+}
+h3 {
+    color: #D9B64E;
+    font-family: 'Share Tech Mono', monospace;
+    letter-spacing: 1px;
+    white-space: nowrap;
+    margin-left: 70%;
+    font-size: 150%;
+    font-weight: 100;
+    margin-bottom: 124px;
+    margin-top: 89px;
+}
+
+.top__nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: auto;
+    margin-right: 3%;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.top__nav li {
+    font-family: 'Share Tech Mono', monospace;
+    letter-spacing: 1px;
+    list-style: none;
+    text-decoration: none;
+    margin-left: 35px;
+}
+
+.top__nav li a:link,
+.top__nav li a:visited {
+    color: #62F062;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+}
+
+.quote {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-top: 10%;
+}
+
+/* products */
+
+.products {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+
+p {
+    color: #000000;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 25px;
+    line-height: 120%;
+}
+
+section.products div.product-1 h3,
+section.products div.product-2 h3, 
+section.products div.product-3 h3, 
+section.products div.product-4 h3,
+section.products div.product-5 h3,
+section.products div.product-6 h3,
+section.products div.product-7 h3,
+section.products div.product-8 h3,
+section.products div.product-9 h3,
+section.products div.product-10 h3 {
+    display: block;
+    margin-left: 1%;
+    color: #4a2f0c;
+    font-size:30px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+section.products div.product-2 h3 {
+    color: aliceblue;
+}
+section.products div.product-4 h3 {
+    color: aliceblue;
+}
+
+.product-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-image: url(https://drscdn.500px.org/photo/221921107/m%3D900/v2?);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: left;
+}
+
+.product-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-image: url(https://drscdn.500px.org/photo/72034627/m%3D900/v2?);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: left;
+}
+
+section.products div.product-2 p {
+    color: aliceblue;
+}
+section.products div.product-4 p {
+    color: aliceblue;
+}
+
+.product-3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-image: url(https://drscdn.500px.org/photo/61280486/m%3D900/v2?);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: left;
+}
+.product-4 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-image: url(https://drscdn.500px.org/photo/274369201/m%3D900/v2?);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: left;
+}
+.product-5 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-image: url(https://drscdn.500px.org/photo/68160629/m%3D900/v2?);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: left;
+}
+.product-6 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-image: url(https://drscdn.500px.org/photo/126179309/m%3D900/v2?);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: left;
+}
+.product-7 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-image: url(https://drscdn.500px.org/photo/295283407/m%3D900/v2?);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: left;
+}
+.product-8 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-image: url(https://drscdn.500px.org/photo/294475941/m%3D900/v2?);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: left;
+}
+.product-9 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-image: url(https://drscdn.500px.org/photo/311971087/m%3D900/v2?);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: left;
+}
+.product-10 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-image: url(https://drscdn.500px.org/photo/249229311/m%3D900/v2?);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: left;
+}
+
+
+
+
+
+
+
+
